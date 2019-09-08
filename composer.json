@@ -14,5 +14,12 @@
 	],
 	"require": {
 		"php": "^7.1.3"
+	},
+	"require-dev": {
+	},
+	"autoload": {
+		"psr-4": {
+			"Sau\\Bundle\\MDEditor\\": "src"
+		}
 	}
 }

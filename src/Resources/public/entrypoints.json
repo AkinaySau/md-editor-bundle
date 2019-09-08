@@ -1,0 +1,13 @@
+{
+  "entrypoints": {
+    "md-editor": {
+      "js": [
+        "/runtime.js",
+        "/md-editor.js"
+      ],
+      "css": [
+        "/md-editor.css"
+      ]
+    }
+  }
+}

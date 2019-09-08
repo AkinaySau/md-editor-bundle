@@ -1,0 +1,21 @@
+{# Create AkinaySau(akinaysau@gmail.com) #}
+{% block md_editor_row %}
+    <div class="editor">
+        <label for="{{ form.vars.id }}">
+            {{ form.vars.label }}
+        </label>
+        {{ form_errors(form) }}
+        {{ form_widget(form) }}
+    </div>
+{% endblock %}
+
+{% block md_editor_widget %}
+    <div
+            id="{{ form.vars.id }}"
+            class="md-editor-bundle"
+            data-content="{{ form.vars.data }}"
+            data-name="{{ form.vars.full_name }}"
+            data-height="{{ form.vars.height }}"
+            {% if form.vars.save_html %} data-save-html {% endif %}
+    ></div>
+{% endblock %}
