@@ -14,7 +14,7 @@
   "devDependencies": {
     "@symfony/webpack-encore": "^0.28.0",
     "autoprefixer": "^9.6.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "marked": "^0.7.0",
     "node-sass": "^4.12.0",
     "postcss-loader": "^3.0.0",
